@@ -12,6 +12,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'simple_form', '~> 3.2'
+gem 'bootstrap-sass', '~> 3.3'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
@@ -23,7 +25,6 @@ group :development do
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'administrate'
-gem 'bootstrap-sass'
 gem 'bourbon'
 gem 'devise'
 gem 'gibbon'
